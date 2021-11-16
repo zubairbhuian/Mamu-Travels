@@ -1,0 +1,20 @@
+a {
+  text-decoration: none;
+}
+
+.header-top {
+  height: 56px;
+  background-color: var(--bs-dark);
+  color: var(--bs-body-bg);
+  padding: 16px 0;
+}
+.header-top .bi {
+  fill: var(--bs-body-bg);
+  transition: all 0.3s ease-in-out;
+}
+.header-top .bi:hover {
+  fill: var(--bs-gray-400);
+}
+.header-top .social-icon .bi {
+  margin-left: 10px;
+}

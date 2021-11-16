@@ -1,0 +1,36 @@
+//HEME COLORS
+$theme-colors: (
+  "primary": #686ee2,
+  "secondary": #27ae60,
+  "dark": #202044,
+);
+
+// Color
+$colors: (
+  "gray-bg": #f4f4f4,
+  "green-text": #0a4060,
+  "green-text-light": #107290,
+  "text-color": #757474,
+  "gray-light": #f8f8f8,
+  "yollow": #fc933b,
+);
+// Gray-Color
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+// font family
+$font-family-sans-serif: "Roboto", sans-serif;
+$font-family-monospace: "Quicksand", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+@import "../node_modules/bootstrap/scss/bootstrap";
+// font family

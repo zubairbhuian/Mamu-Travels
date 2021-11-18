@@ -65,10 +65,11 @@
   }
 }
 .expo-imag {
-  background-color: red;
   width: 100%;
   height: 100%;
-  border-radius: 50%;
+  img {
+    width: 100%;
+  }
 }
 // two
 .explore-midd {

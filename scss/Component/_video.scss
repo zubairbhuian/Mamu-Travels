@@ -1,8 +1,14 @@
 .video-secton {
-  margin-bottom: 180px;
+  margin-bottom: 50px;
   position: relative;
+  @include media-breakpoint-down(xxl) {
+    margin-bottom: 150px;
+  }
   @include media-breakpoint-down(md) {
-    margin-bottom: 463px;
+    margin-bottom: 50px;
+  }
+  @include media-breakpoint-up(xxl) {
+    margin-bottom: 168px !important;
   }
   .video-pic {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.164)),
@@ -16,8 +22,9 @@
     align-items: center;
     justify-content: center;
     border-radius: 12px;
+    margin-bottom: 30px !important;
   }
-  .btn {
+  .btn-vid {
     background: rgba(16, 114, 145, 0.37);
     border-radius: 16px;
     width: 256px;
@@ -47,7 +54,35 @@
   right: 0;
   bottom: -100px;
   @include media-breakpoint-down(md) {
-    bottom: -400px;
+    top: 0px;
+    position: relative !important;
+  }
+
+  .btn-down {
+    background-color: var(--bs-yollow);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    width: 207px;
+    height: 78px;
+    padding: 26px 12px;
+    font-weight: 600;
+    font-size: 16px;
+    border-start-end-radius: 0 !important;
+    border-start-start-radius: 12px !important;
+    border-end-end-radius: 12px !important;
+    border-end-start-radius: 0 !important;
+    @include media-breakpoint-down(md) {
+      width: 159px;
+      height: 53px;
+      padding: 13px 12px;
+    }
+    .bi-arrow-right {
+      width: 29px !important;
+      fill: #ffff;
+      margin-left: 15px !important;
+    }
   }
 }
 .video-dowen-header {
